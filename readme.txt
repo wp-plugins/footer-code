@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: GZep
 Donate link: http://gzep.ru/donate/
-Tags: footer, code, inject, insert
+Tags: footer, code, inject, insert, metrika, analytics
 Requires at least: 4.0
-Tested up to: 4.1.1
+Tested up to: 4.2.2
 Stable tag: trunk
 License: MIT
 License URI: http://opensource.org/licenses/MIT

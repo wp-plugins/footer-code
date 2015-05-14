@@ -37,9 +37,9 @@ class FooterCode
 
     public function admin_page()
     {
-        echo '<div class="wrap"><h2>';
-        _e('Footer Code', self::DOMAIN);
-        echo '</h2><form method="post" action="options.php">';
+        echo '<div class="wrap"><h2>'
+            . __('Footer Code', self::DOMAIN)
+            . '</h2><form method="post" action="options.php">';
         do_settings_sections('footer-code-admin');
         settings_fields('footer_code_option_group');
         submit_button(); 
